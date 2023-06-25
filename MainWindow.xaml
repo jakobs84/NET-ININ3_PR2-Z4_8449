@@ -19,11 +19,12 @@ Title="Lista"
         <ListBox
             Name="Lista"
             Grid.Row="0"
-            ItemsSource="{Binding ListaFilmow}"
+            DataContext="{DynamicResource DanePojazdów}"
+            ItemsSource="{Binding XPath=Kategorie}"
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding Szczegóły}"/>
+                    <TextBlock Text="{Binding XPath=Nazwa}"/>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>

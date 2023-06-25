@@ -25,6 +25,13 @@ namespace NET_ININ3_PR2_Z4
             InitializeComponent();
         }
 
+        public Marka(System.Xml.XmlElement kategoria)
+        {
+            DataContext = kategoria;
+            Console.WriteLine(kategoria);
+            InitializeComponent();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             new SzczegułyOkno().Show();
