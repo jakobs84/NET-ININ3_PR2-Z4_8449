@@ -29,7 +29,7 @@ Title="Lista"
         </ListBox>
 
         <Button
-            Grid.Row="1"
+            Grid.Row="1" Click="Szczegóły_Click"
             >
             Edytuj
         </Button>

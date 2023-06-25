@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace NET_ININ3_PR2_Z4
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy SzczegułyOkno.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SzczegułyOkno : Window
     {
-        public MainWindow()
+        public SzczegułyOkno()
         {
             InitializeComponent();
-        }
-
-        private void Szczegóły_Click(object sender, RoutedEventArgs e)
-        {
-            FrameworkElement parent = (FrameworkElement)((FrameworkElement)sender).Parent;
-            ListBox lista = (ListBox)parent.FindName("Lista");
-            new Marka().Show();
         }
     }
 }
