@@ -11,10 +11,6 @@ Title="Lista"
     FontSize="24"
     >
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="100"/>
@@ -23,7 +19,6 @@ Title="Lista"
         <ListBox
             Name="Lista"
             Grid.Row="0"
-            Grid.ColumnSpan="2"
             ItemsSource="{Binding ListaFilmow}"
             >
             <ListBox.ItemTemplate>
@@ -34,16 +29,9 @@ Title="Lista"
         </ListBox>
 
         <Button
-            Grid.Column="0"
             Grid.Row="1"
             >
             Edytuj
-        </Button>
-        <Button
-            Grid.Column="1"
-            Grid.Row="1"
-            >
-            Nowy
         </Button>
     </Grid>
 </Window>
