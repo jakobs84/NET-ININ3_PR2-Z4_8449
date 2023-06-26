@@ -17,18 +17,15 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
-        <ListBox
-            Name="Lista"
-            Grid.Row="0"
-           
-            >
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock />
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-
-
+        <DataGrid Name="Modele"
+                  ItemsSource="{Binding XPath=Model}"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nazwa"  Binding="{Binding XPath=Nazwa}"/>
+                <DataGridTextColumn Header="Rok produkcji" Binding="{Binding XPath=RokProdukcji}" />
+                <DataGridTextColumn Header="Pojemność silnika" Binding="{Binding XPath=PojemnośćSilnika}" />
+                <DataGridTextColumn Header="Rodzaj napędu" Binding="{Binding XPath=RodzajNapędu}" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>

@@ -28,6 +28,12 @@
                     <StackPanel Orientation="Horizontal" Margin="2">
                         <TextBlock Text="Marka:" Margin="2"/>
                         <TextBlock Text="{Binding XPath=Nazwa}" Margin="2"/>
+                        <TextBlock Text=" Koncern:" Margin="2"/>
+                        <TextBlock Text="{Binding XPath=Koncern}" Margin="2"/>
+                        <TextBlock Text=" Rok Powstania:" Margin="2"/>
+                        <TextBlock Text="{Binding XPath=rProd}" Margin="2"/>
+                        <TextBlock Text=" Kraj Produkcji:" Margin="2"/>
+                        <TextBlock Text="{Binding XPath=skrzynia}" Margin="2"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

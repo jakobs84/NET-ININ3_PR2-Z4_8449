@@ -5,12 +5,23 @@
 		<Nazwa>SSSS</Nazwa>
 		<Marka>
 			<Nazwa>111111</Nazwa>
+			<Koncern>Test1</Koncern>
+			<rProd>1984</rProd>
+			<skrzynia>Mnaualna</skrzynia>
 		</Marka>
 		<Marka>
 			<Nazwa>222222222</Nazwa>
+			<Koncern>Test2</Koncern>
+			<rProd>1985</rProd>
+			<skrzynia>Automat</skrzynia>
+
 		</Marka>
 		<Marka>
 			<Nazwa>4444444</Nazwa>
+			<Koncern>Test3</Koncern>
+			<rProd>1988</rProd>
+			<skrzynia>Mnaualna1</skrzynia>
+
 		</Marka>
 	</Kategorie>
 
@@ -18,13 +29,21 @@
 		<Nazwa>BBB</Nazwa>
 		<Marka>
 			<Nazwa>aaaaAAAA</Nazwa>
+			<Koncern>Test88</Koncern>
+			<rProd>1990</rProd>
+			<skrzynia>9Mnaualna</skrzynia>
+
 		</Marka>
 
 	</Kategorie>
 	<Kategorie>
 		<Nazwa>zzz</Nazwa>
 		<Marka>
-			<Nazwa>AAAA111</Nazwa>
+			<Nazwa>AAAA111Q</Nazwa>
+			<Koncern>Test1Q</Koncern>
+			<rProd>1984Q</rProd>
+			<skrzynia>MnaualnaQ</skrzynia>
+
 		</Marka>
 
 	</Kategorie>

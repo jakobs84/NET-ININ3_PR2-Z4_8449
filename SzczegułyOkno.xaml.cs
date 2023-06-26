@@ -24,5 +24,12 @@ namespace NET_ININ3_PR2_Z4
         {
             InitializeComponent();
         }
+
+        public SzczegułyOkno(System.Xml.XmlElement modele)
+        {
+            DataContext = modele;
+            Console.WriteLine(modele);
+            InitializeComponent();
+        }
     }
 }
