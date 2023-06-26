@@ -3,13 +3,30 @@
 
 	<Kategorie>
 		<Nazwa>SSSS</Nazwa>
+		<Marka>
+			<Nazwa>111111</Nazwa>
+		</Marka>
+		<Marka>
+			<Nazwa>222222222</Nazwa>
+		</Marka>
+		<Marka>
+			<Nazwa>4444444</Nazwa>
+		</Marka>
 	</Kategorie>
 
 	<Kategorie>
 		<Nazwa>BBB</Nazwa>
+		<Marka>
+			<Nazwa>aaaaAAAA</Nazwa>
+		</Marka>
+
 	</Kategorie>
 	<Kategorie>
 		<Nazwa>zzz</Nazwa>
+		<Marka>
+			<Nazwa>AAAA111</Nazwa>
+		</Marka>
+
 	</Kategorie>
 
 </Pojazdy>

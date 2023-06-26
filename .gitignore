@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/NET-ININ3_PR2-Z4/v17/.wsuo
+/VSWorkspaceState.json
+/slnx.sqlite

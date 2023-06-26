@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NET_ININ3_PR2_Z4"
         mc:Ignorable="d"
-Title="Lista"
+    Title="Lista Samochodów"
     Height="650"
     Width="400"
     FontSize="24"
@@ -17,7 +17,7 @@ Title="Lista"
         </Grid.RowDefinitions>
 
         <ListBox
-            Name="Lista"
+            Name="ListaPojazdóws"
             Grid.Row="0"
             DataContext="{DynamicResource DanePojazdów}"
             ItemsSource="{Binding XPath=Kategorie}"

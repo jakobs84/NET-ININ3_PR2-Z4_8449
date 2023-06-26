@@ -18,13 +18,17 @@
         </Grid.RowDefinitions>
 
         <ListBox
-            Name="Lista"
+            Name="ListaMarka"
+            ItemsSource="{Binding XPath=Marka}"
             Grid.Row="0"
            
             >
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock />
+                    <StackPanel Orientation="Horizontal" Margin="2">
+                        <TextBlock Text="Marka:" Margin="2"/>
+                        <TextBlock Text="{Binding XPath=Nazwa}" Margin="2"/>
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>

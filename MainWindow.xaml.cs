@@ -28,8 +28,8 @@ namespace NET_ININ3_PR2_Z4
         private void Szczegóły_Click(object sender, RoutedEventArgs e)
         {
             FrameworkElement parent = (FrameworkElement)((FrameworkElement)sender).Parent;
-            ListBox lista = (ListBox)parent.FindName("Lista");
-            new Marka().Show();
+            ListBox lista = (ListBox)parent.FindName("ListaPojazdóws");
+            new Marka((System.Xml.XmlElement)lista.SelectedItem).Show();
         }
     }
 }
